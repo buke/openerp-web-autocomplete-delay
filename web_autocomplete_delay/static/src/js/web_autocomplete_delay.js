@@ -22,7 +22,6 @@ openerp.web_autocomplete_delay = function(instance) {
         render_editable: function() {
             this._super();
             this.$input.autocomplete("option", "delay", 1500);
-            this.$input.autocomplete("option", "minLength", 2);
         },
     });
    instance.web.SearchView = instance.web.SearchView.extend({
